@@ -1,16 +1,22 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
+import QrScanner from "../components/QrScanner";
 
 function QrScanScreen(props) {
   return (
     <View style={styles.container}>
-      <Text>QrScan Screen</Text>
+      <QrScanner />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {},
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
 });
 
 export default QrScanScreen;
