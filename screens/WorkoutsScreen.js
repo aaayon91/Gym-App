@@ -1,11 +1,12 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
+import Screen from "../components/Screen";
 
 function WorkoutsScreen(props) {
   return (
-    <View style={styles.container}>
+    <Screen style={styles.container}>
       <Text>Workouts Screen</Text>
-    </View>
+    </Screen>
   );
 }
 

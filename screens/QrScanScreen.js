@@ -1,12 +1,13 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
 import QrScanner from "../components/QrScanner";
+import Screen from "../components/Screen";
 
 function QrScanScreen(props) {
   return (
-    <View style={styles.container}>
+    <Screen style={styles.container}>
       <QrScanner />
-    </View>
+    </Screen>
   );
 }
 
