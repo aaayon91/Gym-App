@@ -1,11 +1,12 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
+import Screen from "../components/Screen";
 
 function ProfileScreen(props) {
   return (
-    <View style={styles.container}>
+    <Screen style={styles.container}>
       <Text>Profile Screen</Text>
-    </View>
+    </Screen>
   );
 }
 
